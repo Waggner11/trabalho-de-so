@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephen King - Página Inicial</title>
+    <link rel="stylesheet" href="trabalho.js">
+</head>
+<body>
+
+    <header>
+        <h1>Stephen King</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="biografia.html">Biografia</a></li>
+            <li><a href="livros.html">Livros</a></li>
+            <li><a href="maioresobras.html">maioresobras</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <p>Bem-vindo à página dedicada a Stephen King. Aqui você encontrará informações sobre sua vida e obra.</p>
+        <!-- Mais parágrafos e conteúdo aqui -->
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Stephen King. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #000000;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #000000;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+/* Adicione isso no final do arquivo para design responsivo com flexbox */
+@media screen and (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+}
+
+/* Adicione isso para layout de duas colunas com flexbox */
+
+main {
+    flex: 2;
+}
+
+/* Adicione isso para design de grelha */
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+/* Adicione elementos adicionais (bordas, sombras, transições) */
+nav a {
+    border: 1px solid #333;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: #ff0000;
+}
+</style>
+
+
+</html>
